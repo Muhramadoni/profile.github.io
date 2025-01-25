@@ -1,0 +1,209 @@
+/* Reset Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #484848;
+  font-family: Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+header .navibar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #221f1f;
+  padding: 2em;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.5em;
+  color: white;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.logo:hover {
+  transform: skew(10deg);
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 0 0.5em;
+  color: #fff;
+  transition: all ease 0.3s;
+}
+
+.nav-list a:hover {
+  color: #dc143c;
+}
+
+.nav-list .btn {
+  background-color: #dc143c;
+  border: none;
+  font-size: 1.2em;
+  color: #fff;
+  padding: 0.3em 0.8em;
+  border-radius: 9px 2px 9px;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+.nav-list .btn:active {
+  background-color: #8b0000;
+  transform: translateY(2px);
+}
+
+/* Section style */
+.hero {
+  background-color: #4d4c4c;
+}
+
+.hero .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image img {
+  width: 500px;
+  transition: all ease 0.3s;
+}
+
+.image img:hover {
+  transform: scale(1.2);
+}
+
+.tentang {
+  line-height: 15px;
+  text-align: center;
+}
+
+.tentang h4 {
+  color: #fff;
+  font-size: 2em;
+}
+
+.tentang p {
+  color: #fff;
+  font-size: 1.2em;
+  margin: 1.5em 0;
+}
+
+/* About style */
+.about .about-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2em;
+}
+
+.image-about {
+  border-right: 5px solid #fff;
+}
+
+.image-about img {
+  transition: all ease 0.3s;
+}
+
+.image-about img:hover {
+  transform: scale(1.2);
+}
+
+.deskripsi-tentang p {
+  color: #fff;
+  width: 40em;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+/* Kontak Style */
+.kontak {
+  background-color: #4d4c4c;
+  padding: 2em;
+}
+
+.kontak .kontak-content {
+  background-color: #221f1f;
+  width: 50%;
+  margin: 2em auto;
+  padding: 2em;
+  border: 4px solid transparent;
+  border-radius: 15px 15px;
+}
+
+.kontak .kontak-content:hover {
+  border-color: #dc143c;
+}
+
+.judul h3 {
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 1.2em;
+}
+
+.form-kontak label {
+  display: block;
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.form-kontak input {
+  margin-bottom: 1.3em;
+  width: 100%;
+  padding: 0.8em;
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  border-radius: 8px;
+}
+
+.form-kontak textarea {
+  width: 100%;
+  height: 150px;
+  border: none;
+  outline: none;
+  padding: 0.8em;
+  font-size: 1.5em;
+  border-radius: 8px;
+}
+
+.btn-cta button {
+  width: 100%;
+  margin-top: 2em;
+  background-color: #dc143c;
+  padding: 0.8em;
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  border-radius: 8px;
+}
+
+/* Footer Style */
+footer {
+  text-align: center;
+  padding: 2em;
+  background-color: #221f1f;
+}
+
+.icon a {
+  color: #fff;
+  padding: 1em;
+}
+
+.icon i {
+  font-size: 2.5em;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 1.3em;
+  margin-top: 2em;
+}
